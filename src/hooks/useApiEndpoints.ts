@@ -325,6 +325,28 @@ export function useApiEndpoints() {
   // -----------------------------------------
   // INITIAL FETCH
   // -----------------------------------------
+
+  const getAllChecks = async (): Promise<ApiCheck[]> => {
+  if (!user) {
+    return [];
+  }
+
+  const { data, error } = await supabase
+    .from('api_checks')
+    .select(`
+      *,
+      api_endpoints!inner(user_id)
+    `)
+    .eq('api_endpoints.user_id', user.id)
+    .order('checked_at', { ascending: false });
+
+  if (error) {
+    throw error;
+  }
+
+  return data || [];
+};
+
   useEffect(() => {
     fetchEndpoints();
   }, [fetchEndpoints]);
@@ -340,6 +362,7 @@ export function useApiEndpoints() {
 
     triggerManualCheck,
     getEndpointChecks,
+    getAllChecks,
 
     refetch: fetchEndpoints,
   };
