@@ -24,11 +24,11 @@ export function Footer() {
               </div>
               <div className="flex items-center space-x-2 text-white/80 dark:text-dark-primary/80">
                 <Mail className="h-4 w-4" />
-                <span className="font-sf-pro">contact@atinar.in</span>
+                <span className="font-sf-pro">praveen@atinar.co.in</span>
               </div>
               <div className="flex items-center space-x-2 text-white/80 dark:text-dark-primary/80">
                 <span className="font-sf-pro font-medium">Website:</span>
-                <span className="font-sf-pro">atinar.in</span>
+                <span className="font-sf-pro">atinar.co.in</span>
               </div>
             </div>
           </div>
