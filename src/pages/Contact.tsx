@@ -53,13 +53,13 @@ export function Contact() {
     {
       icon: Mail,
       title: 'Email Us',
-      details: 'contact@atinar.in',
+      details: 'praveen@atinar.co.in',
       description: 'Send us an email and we\'ll respond within 24 hours'
     },
     {
       icon: Phone,
       title: 'Call Us',
-      details: '+91 98765 43210',
+      details: '+91 9311612127',
       description: 'Available Monday to Friday, 9 AM to 6 PM IST'
     },
     {
@@ -240,7 +240,7 @@ export function Contact() {
                 <div className="text-center">
                   <Mail className="h-8 w-8 text-light-accent dark:text-dark-secondary mx-auto mb-3" />
                   <h4 className="font-semibold text-gray-900 dark:text-white mb-2">Email</h4>
-                  <p className="text-gray-600 dark:text-gray-300">contact@atinar.in</p>
+                  <p className="text-gray-600 dark:text-gray-300">praveen@atinar.co.in</p>
                 </div>
                 <div className="text-center">
                   <MapPin className="h-8 w-8 text-light-accent dark:text-dark-secondary mx-auto mb-3" />
