@@ -255,7 +255,7 @@ export function About() {
                 <h2 className="text-3xl font-bold text-gray-900 dark:text-white font-sf-pro">Our Location</h2>
               </div>
               <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed font-sf-pro">
-                Founded in 2022 and based in Faridabad, Haryana, we're a focused team 
+                Found in 2025 and based in Faridabad, Haryana, we're a focused team 
                 dedicated to providing reliable API monitoring solutions. As a small 
                 company, we prioritize quality over quantity, ensuring each project 
                 receives our full attention and expertise.
@@ -291,8 +291,8 @@ export function About() {
                   Faridabad, Haryana 121001, India
                 </p>
                 <p className="text-gray-600 dark:text-gray-300 font-sf-pro">
-                  <strong>Email:</strong> contact@atinar.in<br />
-                  <strong>Website:</strong> atinar.in
+                  <strong>Email:</strong> contact@atinar.co.in<br />
+                  <strong>Website:</strong> atinar.co.in
                 </p>
               </div>
             </motion.div>
