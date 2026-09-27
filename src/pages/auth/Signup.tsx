@@ -209,7 +209,7 @@ export function Signup() {
             <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
               <div>
                 <label htmlFor="username" className="block text-sm font-medium text-light-dark dark:text-dark-primary mb-2">
-                  Username (Optional)
+                  Username
                 </label>
                 <input
                   {...register('username')}
